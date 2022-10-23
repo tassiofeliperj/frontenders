@@ -14,7 +14,7 @@ Acesse o projeto pelo GitHub Pages ou baixe e rode localmente na sua máquina.
 
 ## Integrantes do Squad
 
-[Jariane Santos](https://github.com/Jarianesantos)
+[Jariane Santos](_blank "https://github.com/Jarianesantos")
 
 [Jonas Santana](https://github.com/sunsetmonk)
 
