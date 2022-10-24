@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Pavanam&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    background-color: #1d580b;
+    padding: 20px 20px;
+    width: 100%;
+    height: 20%;
+}
+
+
+/* Botões padronizados */
+
+.btn-default {
+    background-color: #1d580b;
+    padding: 4px 50px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-default a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-default a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-default:hover {
+    background-color: #1d580b;
+    transition: 0.3s;
+}
+
+/* NAVBAR  */
+
+.navlink {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.navlink:hover {
+    color: #3cb30d;
+    transition: 0.3s;
+}
+
+
+
+/* BOTÕES */
+
+.botaonav {
+    background-color: #3cb30d;
+    padding: 4px 16px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0px 10px;
+}
+
+.botaonav a {
+    color: white;
+    text-decoration: none;
+}
+
+.botaonav a:hover {
+    color: #1d580b;
+    transition: 0.3s;
+}
+
+.botaonav:hover {
+    background-color: white;
+    transition: 0.3s;
+}
+
+
+
+/* FOOTER  */
+
+footer {
+    background-color: #3cb30d;
+}
+
+#footer {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 160px;
+}
+
+#sec-1 h5 {
+    font-size: 20px;
+    font-weight: 700
+}
+
+#sec-2 a {
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#sec-2 a:hover {
+    color: #1d580b;
+    transition: 0.3s;
+}
+
+#sec-3 a {
+    margin: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+#sec-3 a:hover {
+    color: #1d580b;
+    transition: 0.3s;
+}
+
+/* Responsividade  */
+
+@media(max-width:1000px){
+    .cont-2 {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:720px){
+    .cont-1 p {
+        color: black;
+        align-items: center;
+        width: 500px;
+    }
+}
