@@ -28,7 +28,7 @@
     --gunmetal-1: hsl(229, 15%, 21%);
     --gunmetal-2: hsl(216, 22%, 18%);
     --gainsboro: hsl(0, 7%, 88%);
-    --citrine: hsl(182, 81%, 23%);
+    --citrine: hsl(182, 60%, 53%);
     --xiketic: hsl(253, 21%, 13%);
     --gray-x: hsl(0, 0%, 74%);
     --white: hsl(0, 100%, 100%);
@@ -381,7 +381,7 @@
   \*-----------------------------------*/
   
   .header {
-    position: fixed;
+    position: absolute; /*aqui */
     top: 0;
     left: 0;
     width: 100%;
@@ -394,7 +394,7 @@
     background: var(--eerie-black);
     padding-block: 20px;
   }
-  
+  /*aqi*/
   .header .container {
     display: flex;
     justify-content: space-between;
@@ -813,7 +813,7 @@
   \*-----------------------------------*/
   
   .footer-top {
-    background: url("img/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28312.webp") no-repeat;
+    background: url("") no-repeat;
     background-size: cover;
     background-position: center;
     padding-block: 80px 50px;

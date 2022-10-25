@@ -2,9 +2,7 @@ const init = () => {
     const validateEmail = (event) => {
         const input = event.currentTarget;
         const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
-
-     const emailTest = regex.test(input.value);
+        const emailTest = regex.test(input.value);
 
         if(!emailTest) {
             submitButton.setAttribute("disabled", "disabled");
@@ -18,7 +16,7 @@ const init = () => {
     const validatePassowrd = (event) => {
         const input = event.currentTarget;
 
-        if(input.value.length < 8) {
+        if(input.value.length < 10) {
             submitButton.setAttribute("disabled", "disabled");
             input.nextElementSibling.classList.add('error');
         } else {
@@ -26,26 +24,20 @@ const init = () => {
             input.nextElementSibling.classList.remove('error');
         }
     }
+
     
     const inputEmail = document.querySelector('input[type="email"]');
-    const inputPassword = document.querySelector('input[type="password"]');
+    const inputPassword = document.querySelector('input[type="email"]');
     const submitButton = document.querySelector('.login__submit');
 
     inputEmail.addEventListener('input', validateEmail);
     inputPassword.addEventListener('input', validatePassowrd);
-
-    const errorHandler = () => {
-        submitButton.classList.remove('loading');
-        submitButton.classList.remove('success');
-        submitButton.classList.add('error');
-        submitButton.textContent = "Error :(";
-    }
-
+    
     const successHandler = () => {
         submitButton.classList.remove('loading');
         submitButton.classList.remove('error');
         submitButton.classList.add('success');
-        submitButton.textContent = "Sent! :)";
+        submitButton.textContent = "Enviado para seu E-mail";
     }
 
     if(submitButton) {
@@ -61,11 +53,11 @@ const init = () => {
                 },
                 body: JSON.stringify({
                     email: inputEmail.value,
-                    password: inputPassword.value,
+                    password: inputEmail.value,
                 })
             }).then((response) => {
-                if (response.status !== 10) {
-                    return errorHandler();
+                if (response.status = 0) {
+                    return successHandler();
                 }
                 
                 successHandler();
@@ -75,10 +67,9 @@ const init = () => {
             })
             
         })
+        
     }
 }
 
 window.onload = init;
-
-
 

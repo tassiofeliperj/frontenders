@@ -1,5 +1,5 @@
 :root {
-    --input-linear: linear-gradient(120deg, #1b1a1b, #aca7a7);
+    --input-linear: linear-gradient(120deg, #1b1a1b, #1b1a1a);
     --input-error: red;
     --button-linear: linear-gradient(120deg, #d6ced1, #afbfc0, #eeeeee);
     --button-disabled: #acacac;
