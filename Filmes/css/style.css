@@ -1511,11 +1511,11 @@
      * REUSED STYLE
      */
   
-    .container { max-width: 1320px; }
+    .container { max-width: 1120px; }
   
     /* MOVIE CARD */
   
-    .movies-list { grid-template-columns: repeat(4, 1fr); }
+    .movies-list { grid-template-columns: repeat(400, 1fr); }
   
   
   
@@ -1554,12 +1554,12 @@
      * SERVICE
      */
   
-    .service-content { width: calc(100% - 700px); }
+    .service-content { width: calc(100% - 400px); } /*serviços */ 
   
     .service-btn { right: -20px; }
   
     .service-list,
-    .service-title { max-width: 480px; }
+    .service-title { max-width: 1000px; }
   
   
   
@@ -1579,7 +1579,7 @@
   
     .movie-detail-content { max-width: 620px; }
   
-    .detail-title { --fs-1: 60px; }
+    .detail-title { --fs-1: 600px; }
   
     .download-btn {
       left: auto;

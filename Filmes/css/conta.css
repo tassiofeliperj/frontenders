@@ -22,16 +22,12 @@
   }
   
   .login {
-    height: 100vh;
+    height: 150vh;
     background: var(--input-linear);
     display: flex;
     justify-content: center;
     align-items: center;
     
-    
-
- 
-
   }
   
   .login__container {

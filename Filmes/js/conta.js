@@ -45,7 +45,7 @@ const init = () => {
         submitButton.classList.remove('loading');
         submitButton.classList.remove('error');
         submitButton.classList.add('success');
-        submitButton.textContent = "Sent! :)";
+        submitButton.textContent = "Enviado com sucesso :)";
     }
 
     if(submitButton) {
@@ -65,7 +65,7 @@ const init = () => {
                 })
             }).then((response) => {
                 if (response.status !== 10) {
-                    return errorHandler();
+                    return successHandler(); 
                 }
                 
                 successHandler();
