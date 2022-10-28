@@ -1,0 +1,66 @@
+
+
+.container-contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-contact {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    margin-top: 40px;
+    background-color: rgb(68, 67, 67);
+    box-shadow: rgba(2, 245, 54, 0.35) 0px 20px 30px;
+    display: inline-block;
+}
+
+.img-member {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.main-text {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.sub-text {
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.btn-contact-insta {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(241, 2, 170);
+    margin-top: 20px;
+    margin-left: 80px;
+    font-family: 'Poppins';
+}
+
+.btn-contact-git {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(113, 2, 241);
+    margin-top: 20px;
+    margin-left: 90px;
+    font-family: 'Poppins';
+}
+
