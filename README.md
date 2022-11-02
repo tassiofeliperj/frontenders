@@ -2,30 +2,25 @@
 Projeto em Grupo - II Módulo - Desenvolvimento Full Stack Web
 O objetivo desse projeto é desenvolver o front end para apresentar um novo produto lançado pela empresa FrontEnders.
 
-Como executar
+## :gear: Como executar
 Acesse o projeto pelo GitHub Pages ou baixe e rode localmente na sua máquina.
 
-Ferramentas Utilizadas
-
-HTML
-
-CSS
-
-JavaScript
-
-GitHub
-
-Bootstrap
+## :desktop_computer: Ferramentas utilizadas
+- HTML
+- CSS
+- JavaScript
+- GitHub
+- Bootstrap
+- API
 
 
-Integrantes do Squad
+## :man_technologist: Integrantes do Squad
+[Jariane Santos](https://github.com/Jarianesantos)
 
-Jariane Santos
+[Jonas Santana](https://github.com/sunsetmonk)
 
-Jonas Santana
+[Rayane Santos](https://github.com/rayane1705)
 
-Rayane Santos
+[Victor Santos](https://github.com/dev-victorsantos)
 
-Tássio Santos
-
-Victor Santos
+[Tássio Rodrigues](https://github.com/tassiofeliperj)
