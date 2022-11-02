@@ -8,9 +8,13 @@ Acesse o projeto pelo GitHub Pages ou baixe e rode localmente na sua máquina.
 Ferramentas Utilizadas
 
 HTML
+
 CSS
+
 JavaScript
+
 GitHub
+
 Bootstrap
 
 
