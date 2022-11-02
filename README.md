@@ -12,6 +12,7 @@ JavaScript
 GitHub
 Bootstrap
 Integrantes do Squad
+
 Jariane Santos
 
 Jonas Santana
